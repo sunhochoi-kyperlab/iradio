@@ -1,0 +1,191 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+    <meta charset="UTF-8">
+		<title>iRadio</title>
+		<link rel="stylesheet" type="text/css" href="css/iradio.css" />
+	</head>
+	<body>
+		<div id="container" class="player">
+            <div class="pop">
+                <div class="loader">
+                    <div class="spinner"></div>
+                    <p class="text">Loading...</p>
+                </div>
+            </div>
+			<div class="gnb">
+				<ul class="gnb_li">
+					<li class="back"></li>
+					<li class="home"></li>
+				</ul>
+			</div>
+            <div class="left-mn">
+                <div class="menu">
+                    <ul class="menu_li">
+                        <li class="playing">Now Playing</li>
+                        <li>[Current] - Normal</li>
+                        <li>Location - Press</li>
+                        <li class="dis">Genre - Disable</li>
+                        <li>Recommendation</li>
+                        <li>Recent Played</li>
+                        <li>Recommendation</li>
+                        <li>Recent Played</li>
+                        <li>Recommendation</li>
+                        <li>Recent Played</li>
+                    </ul>
+                </div>
+            </div>
+			<div id="player" class="contents">
+              <div class="song-info">
+                <div class="cover">
+                    <img src="" alt="">
+                </div>
+                <h2 class="title">[Station Namexxxxxxx]</h2>
+                <p class="sub-info">[Track Informationxxxxxxxxx]</p>
+              </div>
+              <div class="controls">
+                <button class="forward"></button>
+                <button class="pause"></button><!--button class="play"></button-->
+                <button class="backward"></button>
+              </div>
+            </div>
+            <div id="list-1" class="contents">
+                <div class="list">
+                    <ul>
+                        <li class="sel">
+                            <p>List 1 - Selected State #4092ff</p>
+                            <i></i>
+                        </li>
+                        <li>
+                            <p>List 2- Normal State #acacac</p>
+                            <i></i>
+                        </li>
+                        <li>
+                            <p>List 3 - Press State #ffffff</p>
+                            <i></i>
+                        </li>
+                        <li class="dis">
+                            <p>List4 - Disable State #535353</p>
+                            <i></i>
+                        </li>
+                        <li>
+                            <p>List 5- Normal State #acacac</p>
+                            <i></i>
+                        </li>
+                        <li>
+                            <p>List 5- Normal State #acacac</p>
+                            <i></i>
+                        </li>
+                        <li>
+                            <p>List 5- Normal State #acacac</p>
+                            <i></i>
+                        </li>
+                        <li>
+                            <p>List 5- Normal State #acacac</p>
+                            <i></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="list-2" class="contents">
+                <div class="fix-item">
+                    <p>Asia(12) - Fixed Item  #acacac </p>
+                </div>
+                <div class="list">
+                    <ul>
+                        <li>
+                            <p>Afganistan- Normal State #acacac</p>
+                            <i></i>
+                        </li>
+                        <li>
+                            <p>Bangladesh - Press State #ffffff</p>
+                            <i></i>
+                        </li>
+                        <li class="dis">
+                            <p>Brunei - Disable State #535353</p>
+                            <i></i>
+                        </li>
+                        <li>
+                            <p>Cambodia- Normal State #acacac</p>
+                            <i></i>
+                        </li>
+                        <li>
+                            <p>Cambodia- Normal State #acacac</p>
+                            <i></i>
+                        </li>
+                        <li>
+                            <p>Cambodia- Normal State #acacac</p>
+                            <i></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="list-3" class="contents full">
+                <div class="fix-item">
+                    <p>Asia(12) - Fixed Item  #acacac </p>
+                </div>
+                <ul class="list final">
+                    <li>
+                        <div class="cover"><img src="" alt=""></div>
+                        <h3>AFN 360 - Casey - Normal State #acacac</h3>
+                        <p class="sub-text">Serving America - Normal State #5a5a5a</p>
+                    </li>
+                    <li>
+                        <div class="cover"><img src="" alt=""></div>
+                        <h3>AFN 360 - Osan - Press State #ffffff</h3>
+                        <p class="sub-text">AFN 360 - Osan - Press State #ffffff</p>
+                    </li>
+                    <li class="dis">
+                        <div class="cover"><img src="" alt=""></div>
+                        <h3>Jassheart Radio - Disable State #535353</h3>
+                        <p class="sub-text">Jassheart Radio - Disable State #5a5a5a</p>
+                    </li>
+                    <li>
+                        <div class="cover"><img src="" alt=""></div>
+                        <h3>Cast. cc- Normal State #acacac</h3>
+                        <p class="sub-text">Cast. cc- Normal State #acacac</p>
+                    </li>
+                    <li>
+                        <div class="cover"><img src="" alt=""></div>
+                        <h3>Cast. cc- Normal State #acacac</h3>
+                        <p class="sub-text">Cast. cc- Normal State #acacac</p>
+                    </li>
+                    <li>
+                        <div class="cover"><img src="" alt=""></div>
+                        <h3>Cast. cc- Normal State #acacac</h3>
+                        <p class="sub-text">Cast. cc- Normal State #acacac</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="temp-menu">
+            <a> Player</a>
+            <a> List Style-1</a>
+            <a> List Style-2</a>
+            <a> List Style-3</a>
+            <a> Loading</a>
+        </div>
+        <style>
+            .temp-menu{z-index:1000;position:fixed;top:0;right:0;border-left:1px solid #ccc;}
+            .temp-menu a{display:block;padding:10px 30px;background:#FFF;font-size:14px;color:#000;border-bottom:1px solid #ccc;cursor:pointer;}
+        </style>
+	</body>
+  <script>
+    document.querySelector(".temp-menu a:first-child").addEventListener("click",function(){
+      document.querySelector("#container").className = "player";
+    });
+    document.querySelector(".temp-menu a:nth-child(2)").addEventListener("click",function(){
+      document.querySelector("#container").className = "list-1";
+    });
+    document.querySelector(".temp-menu a:nth-child(3)").addEventListener("click",function(){
+      document.querySelector("#container").className = "list-2";
+    });
+    document.querySelector(".temp-menu a:nth-child(4)").addEventListener("click",function(){
+      document.querySelector("#container").className = "list-3";
+    });
+    document.querySelector(".temp-menu a:last-child").addEventListener("click",function(){
+      document.querySelector("#container").classList.toggle("loading");
+    });
+  </script>
+</html>

@@ -1,0 +1,64 @@
+@import '../../common/css/reset.css';
+@import '../../common/css/layout.css';
+
+.contents{display: none}
+.player #player{display: block}
+.list-1 #list-1{display: block}
+.list-2 #list-2{display: block}
+.list-3 #list-3{display: block}
+.list-3 .left-mn{display: none}
+.loading .pop{display: block}
+
+.song-info{
+    margin-top: 155px;
+    width: 100%;
+    height: 200px;
+}
+.song-info > .cover{
+    position: relative;
+    float: left;
+    margin-left: 80px;
+    width: 200px;
+    height: 200px;
+    background: url('../img/cover_default.png') no-repeat 0 0;
+}
+.song-info > .cover:before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    display: block;
+    width: 198px;
+    height: 198px;
+    border: 1px solid #5e5e60;
+}
+.song-info > .title{
+    margin-top: 43px;
+    display: inline-block;
+    float: right;
+    width: 518px;
+    font-size: 40px;
+    line-height: 150%;
+}
+.song-info > .sub-info{
+    display: inline-block;
+    float: right;
+    width: 518px;
+    font-size: 30px;
+    line-height: 150%;
+    color: #acacac;
+}
+.controls{
+    margin-top: 61px;
+    width: 100%;
+    height: 100px;
+}
+.forward{
+    margin-left: 176px;
+}
+.pause{
+    margin: 0 100px;
+}
+.play{
+    margin: 0 100px;
+}
